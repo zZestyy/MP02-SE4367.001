@@ -7,13 +7,17 @@ Instrumenting Android Apps with Soot
 
 To Run AndroidInstrument:
 1. Have Soot.jar in Referenced (External) Libraries
-2. Run As > Run Configurations > Arguments 
-3. Under Program Arguments insert:
+2. Download Android libraries from https://github.com/Sable/android-platforms as 'android-platforms'.
+3. Download 'sq3.apk'.
+4. Run As > Run Configurations > Arguments 
+5. Under Program Arguments insert:
 -android-jars {path-to-android-platforms} -process-dir {path-to-sq3.apk}
 
 ### Part 2
-#### Keytool Step:
+#### Keytool Step(s):
 ![image](https://user-images.githubusercontent.com/60763350/116766904-9613ec80-a9f2-11eb-9554-6a31c8eccdb8.png)
 
-#### ZipAlign Step:
+#### ZipAlign Step(s):
 ![image](https://user-images.githubusercontent.com/60763350/116766942-c196d700-a9f2-11eb-806c-bfc4d064ba20.png)
+
+The aligned generated apk file will be uploaded to the Github repo as 'sq3-aligned.apk'.
