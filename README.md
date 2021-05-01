@@ -29,3 +29,5 @@ The aligned generated apk file will be uploaded to the Github repo as 'sq3-align
 #### JarSigner:
 ![image](https://user-images.githubusercontent.com/60763350/116767828-3a4c6200-a9f8-11eb-942b-4d882fa7a96b.png)
 
+#### JarSigner Verification:
+![image](https://user-images.githubusercontent.com/60763350/116767899-a4fd9d80-a9f8-11eb-896d-b1c631d2e58d.png)
