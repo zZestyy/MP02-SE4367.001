@@ -1,6 +1,10 @@
 # MP02-SE4367.001
 ## Instrumenting Android Apps with Soot
 
+Name: Val Wong\
+NetID: vmw170030\
+Class: SE 4367.001
+
 ### Part 1
 #### Changing NetID in AndroidInstrument.java
 ![image](https://user-images.githubusercontent.com/60763350/116766959-dffcd280-a9f2-11eb-865a-dc3ccacf464d.png)
