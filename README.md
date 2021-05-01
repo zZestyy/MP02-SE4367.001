@@ -5,6 +5,12 @@ Instrumenting Android Apps with Soot
 #### Changing NetID in AndroidInstrument.java
 ![image](https://user-images.githubusercontent.com/60763350/116766959-dffcd280-a9f2-11eb-865a-dc3ccacf464d.png)
 
+To Run AndroidInstrument:
+1. Have Soot.jar in Referenced (External) Libraries
+2. Run As > Run Configurations > Arguments 
+3. Under Program Arguments insert:
+-android-jars {path-to-android-platforms} -process-dir {path-to-sq3.apk}
+
 ### Part 2
 #### Keytool Step:
 ![image](https://user-images.githubusercontent.com/60763350/116766904-9613ec80-a9f2-11eb-9554-6a31c8eccdb8.png)
