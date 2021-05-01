@@ -20,4 +20,7 @@ To Run AndroidInstrument:
 #### ZipAlign Step(s):
 ![image](https://user-images.githubusercontent.com/60763350/116766942-c196d700-a9f2-11eb-806c-bfc4d064ba20.png)
 
+This outputs a new apk:
+![image](https://user-images.githubusercontent.com/60763350/116767439-b8f3d000-a9f5-11eb-80df-8c8286b96252.png)
+
 The aligned generated apk file will be uploaded to the Github repo as 'sq3-aligned.apk'.
