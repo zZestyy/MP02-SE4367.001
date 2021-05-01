@@ -1,5 +1,5 @@
-# MP02-SE4367.001-
-Instrumenting Android Apps with Soot
+# MP02-SE4367.001
+## Instrumenting Android Apps with Soot
 
 ### Part 1
 #### Changing NetID in AndroidInstrument.java
