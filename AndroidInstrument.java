@@ -55,11 +55,11 @@ public class AndroidInstrument {
 								  // insert "tmpRef = java.lang.System.out;" 
 						        units.insertBefore(Jimple.v().newAssignStmt( 
 						                      tmpRef, Jimple.v().newStaticFieldRef( 
-						                      Scene.v().getField("<java.lang.System: java.io.PrintStream out>").makeRef())), u);   // Please put your Net ID there instead of %Net ID%
+						                      Scene.v().getField("<java.lang.System: java.io.PrintStream out>").makeRef())), u);  
 
 						        // insert "tmpLong = 'HELLO';" 
 						        units.insertBefore(Jimple.v().newAssignStmt(tmpString, 
-						                      StringConstant.v("vmw170030")), u);
+						                      StringConstant.v("vmw170030")), u);  // Please put your Net ID there instead of %Net ID%
 						        
 						        // insert "tmpRef.println(tmpString);" 
 						        SootMethod toCall = Scene.v().getSootClass("java.io.PrintStream").getMethod("void println(java.lang.String)");                    
